@@ -104,11 +104,11 @@ def suggest_pages(user_id, data):
 def main():
 
     print("===== USER INFORMATION =====")
-    data2 = load_data("data2.json")
+    data2 = load_data("data/data2.json")
     about_user(data2)
 
     print("\n===== DATA CLEANING =====")
-    data3 = load_data("data3.json")
+    data3 = load_data("data/data3.json")
 
     cleaned_data = cleaning_data(data3)
 
@@ -117,7 +117,7 @@ def main():
 
     print("\n===== FRIENDS SUGGESTION =====")
 
-    data_massive = load_data("massive_data.json")
+    data_massive = load_data("data/massive_data.json")
 
     user_id = 2
 
@@ -131,10 +131,6 @@ def main():
         print(id_to_user(friend, data_massive))
 
     print("\n===== PAGES SUGGESTION =====")
-    data_massive = load_data("massive_data.json")
-
-    user_id = 2
-
     suggested_pages = suggest_pages(user_id, data_massive)
 
     print(f"\nUser Name : {id_to_user(user_id, data_massive)}")
