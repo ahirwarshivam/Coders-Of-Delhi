@@ -116,6 +116,16 @@ Through this project, I gained practical experience in:
 <img width="1356" height="609" alt="COD srnsht pages result" src="https://github.com/user-attachments/assets/51b832e5-3c27-42a7-b051-ed00097945f3" />
 
 ---
+## Datasets Used
+
+The project was tested using three different datasets:
+
+* **data2.json** – Small dataset used for initial development and debugging.
+* **data3.json** – Medium-sized dataset used for testing data cleaning and recommendation logic.
+* **massive_data.json** – Large dataset used to evaluate the scalability and performance of the recommendation system.
+
+This approach ensured that the recommendation algorithms worked correctly across datasets of different sizes and complexities.
+---
 
 ## Author
 
