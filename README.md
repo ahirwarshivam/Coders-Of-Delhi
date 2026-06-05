@@ -118,13 +118,29 @@ Through this project, I gained practical experience in:
 ---
 ## Datasets Used
 
-The project was tested using three different datasets:
+This project uses multiple datasets to demonstrate different stages of the recommendation system.
 
-* **data2.json** – Small dataset used for initial development and debugging.
-* **data3.json** – Medium-sized dataset used for testing data cleaning and recommendation logic.
-* **massive_data.json** – Large dataset used to evaluate the scalability and performance of the recommendation system.
+### data2.json
 
-This approach ensured that the recommendation algorithms worked correctly across datasets of different sizes and complexities.
+Used for displaying user information, friendships, and liked pages through the `about_user()` function.
+
+### data3.json
+
+Used for data cleaning operations such as:
+
+* Removing users with missing names
+* Removing duplicate friends
+* Removing inactive users
+* Removing duplicate pages
+
+### cleaned_data3.json
+
+Generated after applying the data cleaning process on `data3.json`. This dataset contains the cleaned and structured data.
+
+### massive_data.json
+
+A larger dataset used for testing the recommendation system on a larger scale and evaluating its performance.
+
 ---
 
 ## Author
