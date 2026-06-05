@@ -102,6 +102,20 @@ Through this project, I gained practical experience in:
 * Machine Learning-based Recommendations
 
 ---
+## Project Outputs
+
+### Data Cleaning Result
+<img width="1352" height="682" alt="COD Data srnsht 1" src="https://github.com/user-attachments/assets/76183616-d797-426c-9e5d-f14e26c6b913" />
+---
+
+### Friend Recommendation Result
+<img width="1356" height="214" alt="COD srnsht result" src="https://github.com/user-attachments/assets/72466968-394c-4c05-91b5-b091f614e3d4" />
+
+---
+### Page Recommendation Result
+<img width="1356" height="609" alt="COD srnsht pages result" src="https://github.com/user-attachments/assets/51b832e5-3c27-42a7-b051-ed00097945f3" />
+
+---
 
 ## Author
 
