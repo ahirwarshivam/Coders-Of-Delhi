@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 .ipynb_checkpoints/
+=======
+touch .gitignore
+.ipynb_checkpoints/
+
+>>>>>>> fea08ae (Add gitignore and remove notebook checkpoints)
